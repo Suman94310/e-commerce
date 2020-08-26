@@ -8,6 +8,8 @@ import {
 
 import Header from "./componets/header/Header"
 import RadialMenu from "./componets/radialMenu/RadialMenu"
+import Banner from "./componets/banner/banner"
+import Product from "./componets/product/Product"
 
 function App() {
   return (
@@ -22,7 +24,14 @@ function App() {
                         login
                     </Route>
                     <Route path="/">
-                        home
+                        <Banner/>
+                        <Product
+                            id="1"
+                            title="Tshirt"
+                            price="100"
+                            rating={2}
+                            image="https://images-na.ssl-images-amazon.com/images/I/5107G94AQaL._UL1236_.jpg"
+                        />
                     </Route>
                 </Switch>
                 <RadialMenu/>
