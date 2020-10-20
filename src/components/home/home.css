@@ -1,0 +1,38 @@
+.home {
+    margin-top: 20px !important;
+}
+
+/* search bar */
+.home-nav{
+    margin-bottom: 15vh !important;
+}
+
+.home-nav > div{
+    height: 100%;
+}
+
+.home-input{
+    border-radius: 8px;
+    border: none;
+    height: 100%;
+    background: #3B4445;
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+/* headline */
+.home-headline{
+    font-size: 6vh;
+    margin-bottom: 10vh !important;
+}
+
+.home-bestTabs{
+    background: #576061 !important;
+    box-shadow: none !important;
+}
+
+.home-bestTabs .MuiTabs-indicator{
+    background: white !important;
+}
